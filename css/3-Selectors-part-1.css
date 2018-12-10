@@ -1,0 +1,20 @@
+section{
+	background-color: #ccc;
+	width: 300px;
+	margin-bottom:10px;
+}
+
+/*Tag selectors*/
+section p{
+	background-color: #996633;
+}
+
+/*Class selectors*/
+.class-selectors{
+	background-color: #20ffff;
+}
+
+/*neighbor selectors*/
+.hit1+.hit2{
+	background-color: green;
+}
