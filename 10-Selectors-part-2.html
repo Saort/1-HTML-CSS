@@ -1,16 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>Structure HTML</title>
+		<title>Selectors part-2</title>
 		<meta charset="utf-8">
 		<meta name="discription" content="Структура HTML">
 		<meta name="keywords" content="HTML,CSS,JavaScript">
 		<!-- <meta http-equiv="refresh" content="5; URL=https://uzmusichd.net"> -->
-		<link href="css/" rel="stylesheet">
+		<link href="css/04-Selectors-part-2.css" rel="stylesheet">
 	</head>
 	<body>
+	<section>
+		<h4>Объединение селекторов ( .class1.class2 )</h4>
+		<ul>
+			<li class="class1 class2">class1 class2</li>
+			<li class="class1">class1</li>
+			<li class="class2">class2</li>
+		</ul>
+	</section>
 
+	<section>
+		<h4>Псевдокласс :not ( li:not(.class3) )</h4>
+		<ul class="not">
+			<li class="class1">class1</li>
+			<li class="class1">class1</li>
+			<li class="class1 class3">class1 class3</li>
+			<li class="class1">class1</li>
+		</ul>
+	</section>
 
+	<section>
+		<h4>Комбинируем :not ( li:not(:first-child):not(:last-child) )</h4>
+		<ul class="not2">
+			<li>block1</li>
+			<li>block2</li>
+			<li>block3</li>
+			<li>block4</li>
+		</ul>
+	</section>
+
+	<section class="class-type">
+		<h4>Псевдокласс :first-of-type</h4>
+		<h4>Псевдокласс :last-of-type</h4>
+		<div class="class4">div</div>
+		<ul><li>ul 1</li></ul>
+		<ul><li>ul 1</li></ul>
+		<ul><li>ul 2</li></ul>
+	</section>
+
+	<section class="class-type-2">
+		<h4>Псевдокласс :nth-of-type(even,odd)</h4>
+		<ul><li>ul 1</li></ul>
+		<ul><li>ul 2</li></ul>
+		<ul><li>ul 4</li></ul>
+	</section>
 		<script src="external.js"></script>
 	</body>
 </html>
