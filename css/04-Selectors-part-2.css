@@ -47,5 +47,25 @@ ul:nth-of-type(2) {
 /*Псевдокласс nth-last-of-type*/
 .class-type-3
 ul:nth-last-of-type(1) {
-	background-color: #333
+	background-color: #333;
+}
+
+/*Cелектор последующих элементов*/
+.class-type-4
+.class1 ~ .class3 {
+	background-color: #99ca48;
+}
+
+/*Псевдокласс :empty, выбирает только те теги, у которых нет дочерних элементов*/
+/*li:not(:empty) span{display: block;}*/
+.class-type-5
+ul:empty {
+	color: #99ca48;
+	list-style: none;
+}
+
+/*Псевдокласс :only-child*/
+.class-type-6
+li:only-child {
+	background-color: #99ca48;
 }
