@@ -43,3 +43,9 @@ ul:first-of-type {
 ul:nth-of-type(2) {
 	background-color: #108080;
 }
+
+/*Псевдокласс nth-last-of-type*/
+.class-type-3
+ul:nth-last-of-type(1) {
+	background-color: #333
+}

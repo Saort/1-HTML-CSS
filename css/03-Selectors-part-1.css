@@ -41,6 +41,9 @@ section p{
 	background-color: #fd8008;
 }
 
+.pseudo-classes li:nth-last-child(1) {
+	background-color: #999;
+}
 /*
 a:link { ... }
 a:visited { ... }
