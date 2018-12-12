@@ -74,3 +74,25 @@ span {
 	vertical-align: middle;
 	/*vertical-align: bottom;*/
 }
+
+/*Верхние и нижние индексы на CSS*/
+.index-top {
+	vertical-align: sub;
+}
+
+.index-bottom {
+	vertical-align: super;
+}
+
+/*line-height: управляем высотой строки*/
+.text-decoration-4 p {
+	background-color: #999;
+	line-height: 30px;
+}
+
+
+
+
+
+
+
