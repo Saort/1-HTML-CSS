@@ -5,32 +5,31 @@ section{
 	padding: 5px;
 }
 
-/*Tag selectors*/
+/*Селекторы по тегов*/
 section p{
 	background-color: #996633;
 }
 
-/*Class selectors*/
+/*Селекторы классов*/
 .class-selectors{
 	background-color: #20ffff;
 }
 
-/*neighbor selectors*/
+/*Соседние селекторы*/
 .hit1+.hit2{
 	background-color: green;
 }
 
-/*Child selectors*/
+/*Дочерние селекторы*/
 .places>li{
 	border-top: solid 2px #999;
 }
 
-/*Pseudo-classes*/
-/*
+/*Псевдоклассы*/
 .pseudo-classes li:first-child,
 .pseudo-classes li:last-child {
 	background-color: #99ca48;
-}*/
+}
 
 /* Нечетный */
 .pseudo-classes li:nth-child(odd) {
@@ -42,6 +41,9 @@ section p{
 	background-color: #fd8008;
 }
 
+.pseudo-classes li:nth-last-child(1) {
+	background-color: #999;
+}
 /*
 a:link { ... }
 a:visited { ... }
@@ -54,8 +56,7 @@ input:focus (...)
 	background-color: yellow;
 }
 
-/* Attribute selectors */
-
+/* Селекторы по атрибутов */
 input[type="password"] {
 	background-color: #999;
 }

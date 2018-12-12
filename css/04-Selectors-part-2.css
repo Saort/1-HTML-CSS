@@ -5,37 +5,67 @@ section{
 	padding: 5px;
 }
 
+/*Объединение селекторов*/
 .class1.class2{
 	background-color: #99ca48;
 }
 
-/*Псевдокласс :not*/
-/*
+/*Псевдокласс :not
 В качестве селектора могут указываться псевдоклассы, теги,
 идентификаторы, классы и селекторы атрибутов. Нельзя использовать
-двойной псевдокласс :not, то есть конструкция :not(:not(...)) не сработает.
-*/
-.not 
+двойной псевдокласс :not, то есть конструкция :not(:not(...)) не сработает*/
+.not
 li:not(.class3) {
-	color: #6666ff;
+	background-color: #6666ff;
 }
 
 /*Комбинируем :not*/
-
 .not2 
 li:not(:first-child):not(:last-child) {
 	background-color: #fd8008;
 }
 
 /*Псевдокласс :first-of-type*/
-/*.class-type ul:first-of-type*/
+/*Выбирать перыий ul на странице*/
 .class-type 
 ul:first-of-type {
 	background-color: #66ffcc;
 }
 
+/*Выбирать паследний ul на странице*/
+/*ul:last-of-type {
+	background-color: #66ffcc;
+}*/
+
 /*Псевдокласс :nth-of-type*/
+/*Произвольно выбирать ul на странице*/
 .class-type-2 
 ul:nth-of-type(2) {
 	background-color: #108080;
+}
+
+/*Псевдокласс nth-last-of-type*/
+.class-type-3
+ul:nth-last-of-type(1) {
+	background-color: #333;
+}
+
+/*Cелектор последующих элементов*/
+.class-type-4
+.class1 ~ .class3 {
+	background-color: #99ca48;
+}
+
+/*Псевдокласс :empty, выбирает только те теги, у которых нет дочерних элементов*/
+/*li:not(:empty) span{display: block;}*/
+.class-type-5
+ul:empty {
+	color: #99ca48;
+	list-style: none;
+}
+
+/*Псевдокласс :only-child*/
+.class-type-6
+li:only-child {
+	background-color: #99ca48;
 }
