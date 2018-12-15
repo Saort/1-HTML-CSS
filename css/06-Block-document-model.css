@@ -112,7 +112,27 @@ input[type="text"] {
 	box-sizing: border-box;
 }
 
+/*Блочно-строчных*/
+.document-model-class7
+.class1 {
+	background-color: #6666ff;
+	width: 300px;
+}
 
+
+.document-model-class7
+.class1 p{
+	font-size: 40px;
+}
+
+.document-model-class7
+.class1 span {
+	background-color: #fff;
+	display: inline-block;
+	font-size: 10px;
+
+	vertical-align: middle;
+}
 
 
 

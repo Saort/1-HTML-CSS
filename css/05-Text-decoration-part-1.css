@@ -61,11 +61,11 @@ span {
 }
 
 .text-decoration-3 small {
-	display: none;
+	visibility: hidden;
 }
 
 .text-decoration-3 p:hover small {
-	display: inline;
+	visibility: visible;
 }
 .text-decoration-3 small {
 	font-size: 15px;

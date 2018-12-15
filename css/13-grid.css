@@ -1,0 +1,28 @@
+/*
+Сетка — это взаимное расположение крупных блоков сайта.
+
+Есть тонкость, связанная со строчными элементами. Если зафлоатить строчный элемент,
+то он начинает вести себя как блочный, а именно: воспринимать размеры и отступы.
+*/
+
+/* Float*/
+.main-block {
+	background-color: #ccc;
+	width: 400px;
+	padding: 5px;
+}
+
+.left-bar {
+	background-color: #99ca48;
+	width: 195px;
+	float: left;
+}
+.right-bar {
+	background-color: #6666ff;
+	width: 195px;
+	float: right;
+}
+.main-footer{
+	background-color: #999;
+	clear: both;
+}
