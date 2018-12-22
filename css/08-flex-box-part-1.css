@@ -36,6 +36,7 @@
 	/*§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§*/
 
 	/*Расположить флекс-элементы в начале или в конце поперечной оси*/
+	/*align-items: stretch;*/
 	/*align-items: flex-start;*/
 	/*align-items: center;*/
 	/*align-items: flex-end;*/
