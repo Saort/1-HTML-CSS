@@ -31,43 +31,15 @@ body {
 
 .items {
 	background-color: #464646;
-	width: 500px;
-	height: 100px;
+	flex-basis: 100px;
+	/*width: 100px;*/
+	/*height: 100px;*/
 	margin-bottom: 5px;
 }
 
 .items:not(:last-child) {
 	margin-right: 5px;
 }
-
-/*Особенности свойства margin «ломает» механизмы выравнивания,*/
-/*.items1 {
-	margin-right: auto;
-	margin-left: auto;
-
-	margin-top: auto;
-	margin-bottom: auto;
-}*/
-
-/*Коэффициент растягивания элементов, flex-grow */
-/*Получается, что базовый размер — это исходный размер флекс-элементов до применения flex-grow*/
-/*flex-grow: 0; по умолчанию*/
-
-/*.items4 {
-	flex-grow: 1;
-}*/
-
-/*Коэффициент сжатия элементов, flex-shrink */
-/*flex-shrink: 1; по умолчанию*/
-
-/*.items1 {
-	flex-shrink: 0;
-}
-
-.items2 {
-	flex-shrink: 0;
-}*/
-
 
 
 
