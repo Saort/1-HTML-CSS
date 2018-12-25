@@ -16,6 +16,7 @@
 	/*justify-content: flex-end;*/
 
 	/*Равномерное распределение*/
+	/*Значение по умолчанию	stretch*/
 	/*justify-content: space-between;*/
 	/*justify-content: space-around;*/
 	/*justify-content: space-evenly;*/
@@ -36,7 +37,7 @@
 	/*§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§*/
 
 	/*Расположить флекс-элементы в начале или в конце поперечной оси*/
-	/*align-items: stretch;*/
+	/*Значение по умолчанию	stretch*/
 	/*align-items: flex-start;*/
 	/*align-items: center;*/
 	/*align-items: flex-end;*/
@@ -44,6 +45,7 @@
 	/*§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§*/
 
 	/*Перенос флекс-элементов*/
+	/*Значение по умолчанию	nowrap*/
 	/*flex-wrap: nowrap;*/
 	flex-wrap: wrap;
 	/*flex-wrap: wrap-reverse;*/
@@ -103,4 +105,26 @@
 }*/
 
 
+/*Сокращённое свойство flex*/
+/*порядке: flex: flex-grow, flex-shrink и flex-basis:*/
 /*flex-flow: <flex-direction> || <flex-wrap>;*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

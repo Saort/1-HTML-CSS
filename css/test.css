@@ -13,34 +13,24 @@ body {
 	padding: 10px;
 	width: 900px;
 	height: 400px;
-
-
-	/*Glavniy os*/
-	flex-direction: row;
-	justify-content: flex-start;
-
-	/*Paperechniy os*/
-	/*align-items: center;*/
-
-	align-content: flex-start;
-
-	/*Perenisti na droguy strok*/
-	/*flex-wrap: wrap;*/
 }
 
-
-.items {
-	background-color: #464646;
-	flex-basis: 100px;
-	/*width: 100px;*/
-	/*height: 100px;*/
-	margin-bottom: 5px;
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
-.items:not(:last-child) {
-	margin-right: 5px;
+ul li {
+	background-color: #99ca48;
+	margin-bottom: 10px;
+	width: 200px;
+	height: 50px;
 }
 
-
-
-
+li:nth-child(2) {
+	background-color: #ff9a8c;
+	position: absolute;
+	left: -20px;
+	width: 100px;
+}
