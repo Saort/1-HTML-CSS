@@ -40,6 +40,25 @@ background-attachment: scroll, fixed;
 [bp] — background-position
 [ba] — background-attachment
 
+background-size: width height, contain cover;
+
+Границы фона
+background-origin: padding-box, content-box, border-box;
+
+Обрезка фона
+background-clip: content-box;
+
+
+
+
 Если какой-то компонент не указан
 то берется значение по умолчанию. Ниже примеры.
 */
+
+.container {
+	background: #999 url("../img/piteк.jpg") no-repeat;
+	background-size: cover;
+	width: 400px;
+	height: 300px;
+	margin: 10px auto;
+}
