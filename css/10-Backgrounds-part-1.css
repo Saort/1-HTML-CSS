@@ -1,3 +1,13 @@
+.container {
+	background-image: url("../img/logo-design.png"), url("../img/piter.jpg");
+	background-repeat: space, repeat;
+	background-position: center center, 0 0;
+	background-size: 100px auto, auto; 
+	width: 1200px;
+	height: 500px;
+	margin: 10px auto;
+}
+
 /*
 относительные значения (проценты)
 абсолютные (пиксели).
@@ -40,7 +50,12 @@ background-attachment: scroll, fixed;
 [bp] — background-position
 [ba] — background-attachment
 
+background-position: right 30px bottom 60px; /* справа 30px, снизу 60px
+
 background-size: width height, contain cover;
+
+Если какой-то компонент не указан
+то берется значение по умолчанию. Ниже примеры.
 
 Границы фона
 background-origin: padding-box, content-box, border-box;
@@ -48,17 +63,6 @@ background-origin: padding-box, content-box, border-box;
 Обрезка фона
 background-clip: content-box;
 
+Множественный фон
 
-
-
-Если какой-то компонент не указан
-то берется значение по умолчанию. Ниже примеры.
 */
-
-.container {
-	background: #999 url("../img/piteк.jpg") no-repeat;
-	background-size: cover;
-	width: 400px;
-	height: 300px;
-	margin: 10px auto;
-}

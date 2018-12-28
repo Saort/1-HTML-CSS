@@ -9,7 +9,7 @@ body {
 .main-navigation {
 	background-color: #3b9800;
 	display: flex;
-	height: 70px;
+	/*height: 70px;*/
 
 	box-shadow: 1px 2px 8px 0px rgba(71,71,71,1);
 }
@@ -35,16 +35,17 @@ body {
 	align-items: center;
 }
 
-.list-menu li:not(:last-child) {
-	margin-right: 15px;
-}
-
 .list-menu a {
+	font-size: 16px;
+	padding: 27px 15px;
 	text-decoration: none;
+	outline: none;
 	color: #fff;
 }
 
-.list-menu a:hover {
+.list-menu a:hover,
+.list-menu a:focus {
+	background-color: #36671b;
 	text-decoration: underline;
 }
 
