@@ -46,7 +46,8 @@ body {
 .list-menu a:hover,
 .list-menu a:focus {
 	background-color: #36671b;
-	text-decoration: underline;
+	/*text-decoration: underline;*/
+	border-bottom: 2px solid #fff;
 }
 
 /*
