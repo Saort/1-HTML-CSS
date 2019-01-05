@@ -1,18 +1,19 @@
 body {
 	background: #352c58 url(../img/iphone.png) no-repeat center 300px;
 	background-size: 900px;
-
 	font-family: "Myriad Pro", sans-serif;
 	font-size: 11px;
 	line-height: 16px;
-
 	height: 3000px;
 }
 
 
 @font-face {
 	font-family: 'Sansation';
-	src: local('Sansation Light'), url('sansationlight.woff2') format('woff2'), url('sansationlight.woff') format('woff'), url('sansationlight.ttf') format('truetype');
+	src: local('Sansation Light'),
+			 url('sansationlight.woff2') format('woff2'),
+			 url('sansationlight.woff') format('woff'),
+			 url('sansationlight.ttf') format('truetype');
 	font-weight: 300;
 	font-style: normal;
 }
@@ -118,12 +119,9 @@ body {
 .share .social-fb {background-position: -40px 0;}
 .share .social-tw {background-position: -80px 0;}
 
-
 main {
-/*	background: #ccc;*/
 	width: 1100px;
 	margin: 0 auto;
-	/*padding: 0 20px;*/
 }
 
 .privilege {
@@ -138,11 +136,9 @@ main {
 }
 
 .privilege .privilege-items {
-	/*background-color: #ccc;*/
 	width: 538px;
 	height: 196px;
 	position: relative;
-
 	border: 1px solid #6f658b;
 	margin: 0 auto;
 	padding: 45px 90px;
@@ -152,7 +148,6 @@ main {
 .privilege-items h3 {
 	text-transform: uppercase;
 	font-size: 48px;
-
 	color: #fff;
 }
 
@@ -170,10 +165,8 @@ main {
 	font-size: 18px;
 	color: #fff;
 	text-decoration: none;
-
 	border: 2px solid #fff;
 	padding: 15px 30px;
-
 	left: 292px;
 	bottom: -24px;
 }
@@ -188,10 +181,8 @@ main {
 	border: none;
 	cursor: pointer;
 	text-indent: -10000px;
-
 	border: 1px solid #6f658b;
 }
-
 
 .prev {
 	top: 127px;
@@ -237,7 +228,6 @@ main {
 	background-color: #05a0af;
 }
 
-
 .our-services-title {
 	background-color: #373737;
 	display: flex;
@@ -245,7 +235,6 @@ main {
 	text-transform: uppercase;
 	margin: 0;
 	padding: 50px 0;
-
 	font-size: 40px;
 	line-height: 40px;
 	text-align: center;
@@ -265,11 +254,9 @@ main {
 .our-services-title::before {margin-right: 20px;}
 .our-services-title::after {margin-left: 20px;}
 
-
 .our-services-list {
 	display: flex;
 	flex-direction: row;
-
 	margin: 0;
 	padding: 0;
 	list-style: none;
@@ -281,11 +268,9 @@ main {
 	flex-direction: column;
 	align-items: center;
 	flex-grow: 1;
-
 	padding: 50px;
 	padding-top: 145px;
 	padding-bottom: 140px;
-	/*min-height: 556px;*/
 	color: #fff;
 }
 
@@ -413,7 +398,6 @@ main {
 	position: absolute;
 	left: 10px;
 	bottom: 10px;
-
 	text-align: center;
 	line-height: 33px;
 	font-size: 15px;
@@ -462,22 +446,12 @@ main {
 	flex-grow: 1;
 }
 
+.clients-item img {
+	display: block;
+	margin: 0 auto;
+	opacity: 0.5;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.clients-item img:hover {
+	opacity: 1;
+}
