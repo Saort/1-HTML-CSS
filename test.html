@@ -6,7 +6,50 @@
 	<link rel="stylesheet" href="css/test.css">
 </head>
 <body>
+<style>
 
+	img {
+		width: 100%;
+		height: auto;
+	}
+
+	.slider {
+		background-color: #ccc;
+		max-width: 500px;
+		margin: auto;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	figure {
+		background-color: #999;
+		order: 2;
+	}
+
+	.prew,
+	.next {
+		display: flex;
+		align-items: center;
+	}
+
+	.prew {
+		background-color: #999;
+		order: 1;
+	}
+
+	.next {
+		background-color: #999;
+		order: 3;
+	}
+
+
+</style>
+
+	<section class="slider">
+		<figure><img src="img/piter.jpg" alt="#"></figure>
+		<div class="prew"><button type="bottom">x</button></div>
+		<div class="next"><button type="bottom">x</button></div>
+	</section>
 
 </body>
 </html>

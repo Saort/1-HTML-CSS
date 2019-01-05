@@ -1,5 +1,8 @@
 body {
-	font: bold 17px/20px "PT Sans", sans-serif;
+	background-image: url(../img/piter.jpg);
+	background-size: cover;
+	margin: 0;
+	font: normal 17px/20px "PT Sans", sans-serif;
 }
 
 /*.main-menu {
@@ -104,16 +107,18 @@ body {
 
 /*Вертикальное меню с выпадающим подменю*/
 .main-menu {
-	background-color: #99ca48;
+	background-color: #000;
 	/*width: 180px;*/
 	margin: 0;
 	padding: 0;
 	list-style: none;
 	font-size: 0;
+
+	opacity: 0.5;
 }
 
 .main-menu ul {
-	background-color: #ccc;
+	background-color: #000;
 	margin: 0;
 	margin-left: -2px;
 	padding: 0;
@@ -121,7 +126,7 @@ body {
 }
 
 .main-menu > li {
-	background-color: #99ca48;
+	background-color: #000;
 	display: inline-block;
 	position: relative;
 
@@ -135,7 +140,6 @@ body {
 /*	top: 10px;
 	left: 170px;*/
 	z-index: 10;
-
 	display: none;
 }
 
@@ -159,7 +163,7 @@ body {
 
 
 .main-menu a:hover {
-	background-color: #80a83e;
+	background-color: #000;
 }
 
 

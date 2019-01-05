@@ -36,6 +36,7 @@ body {
 }
 
 .list-menu a {
+	display: block;
 	font-size: 16px;
 	padding: 27px 15px;
 	text-decoration: none;
@@ -43,11 +44,27 @@ body {
 	color: #fff;
 }
 
+.current {
+	position: relative;
+}
+
+.current::after {
+  content: "";
+
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  left: 20px;
+
+  height: 5px;
+
+  background-color: #ffffff;
+}
+
 .list-menu a:hover,
 .list-menu a:focus {
 	background-color: #36671b;
 	/*text-decoration: underline;*/
-	border-bottom: 2px solid #fff;
 }
 
 /*
