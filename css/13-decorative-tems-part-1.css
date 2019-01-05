@@ -1,7 +1,6 @@
 body {
 	background-color: #ccc;
-	font-family: "PT Sans", sans-serif;
-	font-size: 17px;
+	font: 17px/20px "PT Sans", sans-serif;
 }
 
 .share {
@@ -35,11 +34,11 @@ body {
 .paginator span {
 	background-color: #6666ff;
 	display: inline-block;
-	min-width: 20px;
+	/*min-width: 20px;*/
 	height: 40px;
-	padding: 0 10px;
+	padding: 0 20px;
 
-	text-align: center;
+	/*text-align: center;*/
 	line-height: 40px;
 	line-height: middle;
 
@@ -105,9 +104,11 @@ body {
 .icon-phone a {
 	color: #6e7979
 }
+
 .icon-mail a {
 	color: #c34740;
 }
+
 .contacts .icon-location::before {background-position: 0 0;}
 .contacts .icon-phone::before {background-position: -30px 0;}
 .contacts .icon-mail::before {background-position: -60px 0;}

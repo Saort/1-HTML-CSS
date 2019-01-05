@@ -35,7 +35,23 @@ body {
 	align-items: center;
 }
 
+
+.list-menu li {
+	position: relative;
+}
+
+.list-menu li:hover::after {
+	background-color: #fff;
+	content: "";
+	position: absolute;
+	height: 2px;
+	left: 15px;
+	bottom: 0;
+	right: 15px;
+}
+
 .list-menu a {
+	display: block;
 	font-size: 16px;
 	padding: 27px 15px;
 	text-decoration: none;
@@ -43,11 +59,8 @@ body {
 	color: #fff;
 }
 
-.list-menu a:hover,
-.list-menu a:focus {
-	background-color: #36671b;
-	/*text-decoration: underline;*/
-	border-bottom: 2px solid #fff;
+.list-menu a:hover{
+	background-color: #346219;
 }
 
 /*

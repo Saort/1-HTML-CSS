@@ -10,8 +10,40 @@
 		<link href="external.css" rel="stylesheet">
 	</head>
 	<body>
-		<h1>Привет! мир</h1>
 
+<style>
+	.flex-container {
+		background-color: #99ca48;
+		font: bold 30px/35px "PT Sans", sans-serif;
+		text-align: center;
+		color: #fff;
+		display: flex;
+		align-items: center;
+	}
+
+	.flex-container::before,
+	.flex-container::after {
+		background-color: #fff;
+		content: "";
+		display: inline-block;
+		height: 3px;
+
+		flex-grow: 1;
+		flex-shrink: 0;
+	}
+
+	.flex-container::before {
+		margin-right: 10px;
+	}
+
+	.flex-container::after {
+		margin-left: 10px;
+	}
+</style>
+
+	<p class="flex-container">
+		Hello world Hello
+	</p>
 
 		<script src="external.js"></script>
 	</body>
