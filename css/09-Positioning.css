@@ -35,6 +35,21 @@ body {
 	align-items: center;
 }
 
+
+.list-menu li {
+	position: relative;
+}
+
+.list-menu li:hover::after {
+	background-color: #fff;
+	content: "";
+	position: absolute;
+	height: 2px;
+	left: 15px;
+	bottom: 0;
+	right: 15px;
+}
+
 .list-menu a {
 	display: block;
 	font-size: 16px;

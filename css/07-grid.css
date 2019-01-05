@@ -98,9 +98,9 @@ inline-block
 	vertical-align: middle;
 }
 
-.block1 {height: 100px}
-.block2 {height: 150px}
-.block3 {height: 200px}
+.block1 {min-height: 100px}
+.block2 {min-height: 150px}
+.block3 {min-height: 200px}
 
 
 .main-block2 {
