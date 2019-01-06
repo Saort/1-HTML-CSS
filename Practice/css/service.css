@@ -1,10 +1,9 @@
 body {
-	background: #352c58 url(../img/iphone.png) no-repeat center 300px;
-	background-size: 900px;
+	background: #352c58 url(../img/desktop_slider-2.png) no-repeat center 70px;
+	background-size: 850px;
 	font-family: "Myriad Pro", sans-serif;
 	font-size: 11px;
 	line-height: 16px;
-	height: 3000px;
 }
 
 
@@ -76,6 +75,7 @@ body {
 	color: #fff;
 }
 
+.site-navigation .current::before,
 .site-navigation li:hover::before {
 	background-color: #fff;
 	content: " ";
@@ -86,6 +86,7 @@ body {
 	left: 30px;
 }
 
+.site-navigation .current,
 .site-navigation a:hover {
 	background-color: #292243;
 }
@@ -96,7 +97,8 @@ body {
 }
 
 .share a {
-	background: url(../img/social.png) no-repeat 0 0;
+	background: url(../img/social.png) no-repeat;
+	background-size: 100px;
 	display: inline-block;
 	margin-right: 5px;
 	width: 40px;
@@ -116,8 +118,9 @@ body {
 	margin-right: 0;
 }
 
-.share .social-fb {background-position: -40px 0;}
-.share .social-tw {background-position: -80px 0;}
+.share .social-vk {background-position: 2px 4px;}
+.share .social-fb {background-position: -30px 4px;}
+.share .social-tw {background-position: -60px 4px;}
 
 main {
 	width: 1100px;
@@ -136,6 +139,7 @@ main {
 }
 
 .privilege .privilege-items {
+	background-color: #292243db;
 	width: 538px;
 	height: 196px;
 	position: relative;
@@ -182,6 +186,11 @@ main {
 	cursor: pointer;
 	text-indent: -10000px;
 	border: 1px solid #6f658b;
+}
+
+.prev:hover,
+.next:hover {
+	border: 1px solid #fff;
 }
 
 .prev {
@@ -274,6 +283,7 @@ main {
 	color: #fff;
 }
 
+.our-services-list .current,
 .our-services-list .our-services-item:hover {
 	background-color: #097e89;
 }
@@ -455,3 +465,156 @@ main {
 .clients-item img:hover {
 	opacity: 1;
 }
+
+
+.contact-us {
+	background-color: #097e89;
+	display: flex;
+
+	min-height: 170px;
+}
+
+.contact-us-description {
+	width: 400px;
+	padding: 40px 30px;
+	color: #fff;
+}
+
+.contact-us-description h2 {
+	font-weight: normal;
+	font-size: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+.contact-us-form {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-grow: 1;
+	padding-right: 40px;
+}
+
+.contact-us-form input {
+	background-color: transparent;
+	border: 1px solid #84bfc4;
+	outline: none;
+	height: 50px;
+	flex-grow: 1;
+	padding: 0 30px;
+	font-size: 15px;
+	color: #fff;
+}
+
+.contact-us-form input[type="tel"] {
+	margin-left: -1px;
+}
+
+::-webkit-input-placeholder {color:#fff;}
+
+.contact-us-form button[type="submit"] {
+	border: none;
+	height: 52px;
+	color: #2d6974;
+	margin-right: -2px;
+	padding: 0 30px;
+	cursor: pointer;
+	font-size: 15px;
+}
+
+.main-footer {
+	background-color: #474747;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	min-height: 210px;
+}
+
+.footer-nav {
+	width: 500px;
+	padding: 30px 0 30px 30px;
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-nav-product {
+	margin-right: 20px;
+}
+
+.footer-nav-product b {
+	font-size: 15px;
+	color: #fff;
+}
+
+.footer-nav-product ul{
+	margin-bottom: 10px;
+	padding: 0;
+	list-style: none;
+}
+
+.footer-nav-product li {
+	margin-bottom: 8px;
+}
+
+.footer-nav-product a {
+	font-size: 13px;
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer-nav-product a:hover {
+	text-decoration: underline;
+}
+
+.footer-share {
+	padding-top: 50px;
+}
+
+.footer-share input {
+	background-color: #2d6974;
+	border: none;
+}
+
+.footer-share button[type="submit"] {
+	background-color: #0072bc;
+	color: #fff;
+	height: 50px;
+}
+
+.footer-share .share {
+	margin-top: 30px;
+}
+
+.footer-share a {
+	background-color: #2e2e2e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
