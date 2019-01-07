@@ -142,7 +142,7 @@ main {
 .privilege .privilege-items {
 	background-color: #292243db;
 	width: 538px;
-	height: 196px;
+/*	height: 196px;*/
 	position: relative;
 	border: 1px solid #6f658b;
 	margin: 0 auto;
@@ -153,6 +153,7 @@ main {
 .privilege-items h3 {
 	text-transform: uppercase;
 	font-size: 48px;
+	line-height: 48px;
 	color: #fff;
 }
 
@@ -227,6 +228,7 @@ main {
 .author-info-content h3 {
 	text-transform: uppercase;
 	font-size: 24px;
+	line-height: 26px;
 	font-weight: normal;
 	color: 252525;
 	margin-top: 50px;
@@ -274,6 +276,7 @@ main {
 
 .our-services-list .our-services-item {
 	background-color: #3d3d3d;
+	width: 366px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -310,6 +313,7 @@ main {
 
 .our-services-item a {
 	background-color: #959595;
+	margin-bottom: 5px;
 	order: 4;
 }
 
@@ -405,7 +409,7 @@ main {
 .slider-list .slider-number {
 	background-color: #fff;
 	width: 43px;
-	height: 33px;
+
 	position: absolute;
 	left: 10px;
 	bottom: 10px;
@@ -417,7 +421,7 @@ main {
 .slider-list .author-name {
 	background-color: #fff;
 	position: absolute;
-	height: 33px;
+
 	right: 10px;
 	bottom: 10px;
 	width: 130px;
