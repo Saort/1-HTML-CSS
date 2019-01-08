@@ -9,6 +9,7 @@ input {
 	padding: 5px;
 }
 
+/* Google Fonts*/
 article {
 	font-family: 'Charmonman', cursive;
 	font-size: 20px;
@@ -31,7 +32,6 @@ article {
 fieldset {
 	border: 1px solid #4A6F2DFF;
 }
-
 
 legend {
 	background-color: #2FF;

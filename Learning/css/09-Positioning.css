@@ -40,6 +40,7 @@ body {
 	position: relative;
 }
 
+.list-menu .current::after,
 .list-menu li:hover::after {
 	background-color: #fff;
 	content: "";
@@ -59,27 +60,9 @@ body {
 	color: #fff;
 }
 
-.current {
-	position: relative;
-}
-
-.current::after {
-  content: "";
-
-  position: absolute;
-  right: 20px;
-  bottom: 0;
-  left: 20px;
-
-  height: 5px;
-
-  background-color: #ffffff;
-}
-
 .list-menu a:hover,
 .list-menu a:focus {
 	background-color: #36671b;
-	/*text-decoration: underline;*/
 }
 
 /*
@@ -119,7 +102,6 @@ body {
 3) Фиксированный элемент можно позиционировать с помощью свойств
 top, left, right, bottom, но точка отсчета всегда привязана к окну браузера.
 */
-
 
 /*
 z-index или кто кого перекроет
