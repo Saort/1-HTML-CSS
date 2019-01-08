@@ -35,7 +35,8 @@ body {
 .flex-navigation {
 	display: flex;
 	flex-direction: row;
-
+	align-items: center;
+	justify-content: space-between;
 	width: 1100px;
 	margin: 0 auto;
 
@@ -92,25 +93,22 @@ body {
 }
 
 .flex-navigation .share {
-	padding-top: 10px;
-	margin-left: 100px;
+	background-color: #1d1831;
+	padding: 6px 3px 1px 0;
+	border-radius: 5px;
 }
 
 .share a {
-	background: url(../img/social.png) no-repeat;
-	background-size: 100px;
+	background: url(../img/social/share-social.png) no-repeat;
 	display: inline-block;
 	margin-right: 5px;
-	width: 40px;
-	height: 40px;
-	border-radius: 50%;
-	border: 1px solid #6f658b;
+	width: 30px;
+	height: 30px;
 
 	opacity: 0.4;
 }
 
 .share a:hover {
-	border: 1px solid #fff;
 	opacity: 1;
 }
 
@@ -118,9 +116,12 @@ body {
 	margin-right: 0;
 }
 
-.share .social-vk {background-position: 2px 4px;}
-.share .social-fb {background-position: -30px 4px;}
-.share .social-tw {background-position: -60px 4px;}
+.share .social-fb {background-position: 4px center}
+.share .social-tw {background-position: -30px center;}
+.share .social-youtube {background-position: -90px center;}
+.share .social-insta {background-position: -120px center;}
+.share .social-google {background-position: -150px center;}
+.share .social-p {background-position: -180px center;}
 
 main {
 	width: 1100px;
@@ -141,7 +142,7 @@ main {
 .privilege .privilege-items {
 	background-color: #292243;
 	width: 538px;
-	height: 196px;
+/*	height: 196px;*/
 	position: relative;
 	border: 1px solid #6f658b;
 	margin: 0 auto;
@@ -152,6 +153,7 @@ main {
 .privilege-items h3 {
 	text-transform: uppercase;
 	font-size: 48px;
+	line-height: 48px;
 	color: #fff;
 }
 
@@ -226,6 +228,7 @@ main {
 .author-info-content h3 {
 	text-transform: uppercase;
 	font-size: 24px;
+	line-height: 26px;
 	font-weight: normal;
 	color: #252525;
 	margin-top: 50px;
@@ -273,6 +276,7 @@ main {
 
 .our-services-list .our-services-item {
 	background-color: #3d3d3d;
+	width: 366px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -309,6 +313,7 @@ main {
 
 .our-services-item a {
 	background-color: #959595;
+	margin-bottom: 5px;
 	order: 4;
 }
 
@@ -404,7 +409,7 @@ main {
 .slider-list .slider-number {
 	background-color: #fff;
 	width: 43px;
-	height: 33px;
+
 	position: absolute;
 	left: 10px;
 	bottom: 10px;
@@ -416,7 +421,7 @@ main {
 .slider-list .author-name {
 	background-color: #fff;
 	position: absolute;
-	height: 33px;
+
 	right: 10px;
 	bottom: 10px;
 	width: 130px;
@@ -527,12 +532,11 @@ main {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	min-height: 210px;
 }
 
 .footer-nav {
 	width: 500px;
-	padding: 30px 0 30px 30px;
+	padding: 30px 0 60px 30px;
 	display: flex;
 	flex-direction: row;
 }
@@ -582,39 +586,8 @@ main {
 }
 
 .footer-share .share {
+	background-color: #212021;
+	display: inline-block;
 	margin-top: 30px;
+	padding: 6px 3px 1px 0;
 }
-
-.footer-share a {
-	background-color: #2e2e2e;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
