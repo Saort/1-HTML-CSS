@@ -34,14 +34,9 @@ body {
 .paginator span {
 	background-color: #6666ff;
 	display: inline-block;
-	/*min-width: 20px;*/
 	height: 40px;
 	padding: 0 20px;
-
-	/*text-align: center;*/
 	line-height: 40px;
-	line-height: middle;
-
 	text-decoration: none;
 	color: #fff;
 	font-weight: bold;
