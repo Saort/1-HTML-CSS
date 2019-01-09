@@ -98,7 +98,7 @@ body {
 	border-radius: 5px;
 }
 
-.share a {
+.share .social {
 	background: url(../img/social/share-social.png) no-repeat;
 	display: inline-block;
 	margin-right: 5px;
@@ -108,20 +108,20 @@ body {
 	opacity: 0.4;
 }
 
-.share a:hover {
+.share .social:hover {
 	opacity: 1;
 }
 
-.share a:last-child {
+.share .social:last-child {
 	margin-right: 0;
 }
 
-.share .social-fb {background-position: 4px center}
-.share .social-tw {background-position: -30px center;}
+.share .social-facebook {background-position: 4px center}
+.share .social-twitter {background-position: -30px center;}
 .share .social-youtube {background-position: -90px center;}
-.share .social-insta {background-position: -120px center;}
+.share .social-instagram {background-position: -120px center;}
 .share .social-google {background-position: -150px center;}
-.share .social-p {background-position: -180px center;}
+.share .social-pinterest {background-position: -180px center;}
 
 main {
 	width: 1100px;
@@ -142,7 +142,6 @@ main {
 .privilege .privilege-items {
 	background-color: #292243;
 	width: 538px;
-/*	height: 196px;*/
 	position: relative;
 	border: 1px solid #6f658b;
 	margin: 0 auto;
@@ -256,8 +255,7 @@ main {
 .our-services-title::before,
 .our-services-title::after {
 	background-color: #fff;
-	content: " ";
-
+	content: "";
 	flex-grow: 1;
 	width: 50px;
 	height: 2px;
@@ -441,7 +439,6 @@ main {
 .clients .our-services-title:after {
 	background-color: #656464;
 }
-
 
 .clients .clients-list {
 	background-color: #fff;
