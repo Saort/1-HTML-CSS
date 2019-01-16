@@ -1,14 +1,13 @@
 body {
 	background-image:  url("../img/main-prime.jpg"), url(../img/bg-img-2.png), url("../img/bg-img.jpg");
 	background-repeat: no-repeat, no-repeat, repeat;
-	background-position: center 70px, center 2500px;
+	background-position: center 60px, center 2500px;
 	font-family: 'Myriad Pro', 'Pt Sans', sans-serif;
 	font-size: 16px;
 	color: #222;
 
 	padding: 0;
 	margin: 0;
-	height: 5000px;
 }
 
 .hidden {
@@ -18,6 +17,7 @@ body {
 .btn {
 	display: inline-block;
 	padding: 15px 35px;
+
 	background-color: #f92349;
 	font-size: 22px;
 	color: #fff;
@@ -31,13 +31,14 @@ body {
 }
 
 .header-sales {
-	width: 1170px;
-	margin: 0 auto;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	padding-top: 20px;
-	padding-bottom: 20px;
+
+	width: 1170px;
+	margin: 0 auto;
+	padding-top: 15px;
+	padding-bottom: 15px;
 }
 
 .header-sales p {
@@ -91,14 +92,15 @@ body {
 	text-decoration: none;
 	color: #000;
 	font-weight: bold;
-}
+} 
 
 .site-email .email {
-	margin-: 70px;
+	margin: 70px;
 }
 
 .site-info-inner .info-enus {
 	font-size: 16px;
+	padding: 0;
 }
 
 .main-navigation-inner {
@@ -610,13 +612,16 @@ main {
 	list-style: none;
 }
 
-.main-footer {
-	margin-top: 67px;
-}
+/* Main block End*/
 
 /* Footer*/
 .main-footer {
-	background-color: #da263e;
+	margin: 0;
+	margin-top: 67px;
+}
+
+.main-footer {
+	background: #da263e url(../img/test);
 
 	color: #fff;
 }
@@ -805,6 +810,8 @@ main {
 	text-decoration: underline;
 }
 
+
+#b92534
 
 
 
