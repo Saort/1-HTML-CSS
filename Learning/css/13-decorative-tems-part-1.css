@@ -15,7 +15,7 @@ body {
 }
 
 .social {
-	background: #6d8fb3 url(../img/social.png);
+	background: #6d8fb3 url(../img/social.png) no-repeat;
 	display: inline-block;
 	vertical-align: middle;
 	width: 40px;
@@ -29,7 +29,6 @@ body {
 .social-tw {background-color: #73bfe6;background-position: -80px}
 
 /* Paginator */
-
 .paginator a,
 .paginator span {
 	background-color: #6666ff;
@@ -65,13 +64,13 @@ body {
 }
 
 /* Contacta */
-
 .contacts {
 	background-color: #fff;
-	width: 250px;
+	display: inline-block;
+	max-width: 263px;
 	color: #999;
 
-	padding: 5px;
+	padding: 20px;
 }
 
 .contacts .title {
